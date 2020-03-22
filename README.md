@@ -1,1 +1,1 @@
-# TestMe is a testing framework for Node.js
+# tme is a testing framework for Node.js
