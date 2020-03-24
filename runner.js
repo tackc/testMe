@@ -6,8 +6,10 @@ class Runner {
     }
 
     // Walk through directory structure to find test files and add them to this.files
-    collectFiles() {
+    async collectFiles(targetPath) {
+        const files = await fs.promises.readdir(targetPath);
 
+        return files;
     }
 }
 
